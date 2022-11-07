@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pageflow:Pageflow xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pageflow="http://www.sybase.com/suade/pageflow" id="pf16678340857900" configfile="/LoginJSF/src/main/webapp/WEB-INF/faces-config.xml">
+  <nodes xsi:type="pageflow:PFPage" name="Hola.xhtml" x="326" y="168" id="pf16678351220091" inlinks="pf16678351220092" path="/Hola.xhtml"/>
+  <nodes xsi:type="pageflow:PFPage" name="Login.xhtml" x="96" y="252" id="pf16678351220093" outlinks="pf16678351220092 pf16678351220094" path="/Login.xhtml"/>
+  <nodes xsi:type="pageflow:PFPage" name="Pirata.xhtml" x="324" y="420" id="pf16678351220095" inlinks="pf16678351220094" path="/Pirata.xhtml"/>
+  <links id="pf16678351220094" target="pf16678351220095" source="pf16678351220093" outcome="error"/>
+  <links id="pf16678351220092" target="pf16678351220091" source="pf16678351220093" outcome="ok"/>
+</pageflow:Pageflow>
